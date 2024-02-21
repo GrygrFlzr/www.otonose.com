@@ -6,6 +6,9 @@ const config = {
 		adapter: adapter({
 			fallback: '404.html'
 		})
+	},
+	compilerOptions: {
+		runes: true
 	}
 };
 
