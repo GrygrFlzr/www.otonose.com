@@ -9,10 +9,10 @@ devDependencies:
     specifier: ^3.0.1
     version: 3.0.1(@sveltejs/kit@2.5.0)
   '@sveltejs/kit':
-    specifier: ^2.0.0
+    specifier: ^2.5.0
     version: 2.5.0(@sveltejs/vite-plugin-svelte@3.0.2)(svelte@5.0.0-next.64)(vite@5.1.4)
   '@sveltejs/vite-plugin-svelte':
-    specifier: ^3.0.0
+    specifier: ^3.0.2
     version: 3.0.2(svelte@5.0.0-next.64)(vite@5.1.4)
   '@types/eslint':
     specifier: 8.56.0
@@ -24,28 +24,28 @@ devDependencies:
     specifier: ^9.1.0
     version: 9.1.0(eslint@8.56.0)
   eslint-plugin-svelte:
-    specifier: ^2.36.0-next.4
+    specifier: 2.36.0-next.5
     version: 2.36.0-next.5(eslint@8.56.0)(svelte@5.0.0-next.64)
   prettier:
-    specifier: ^3.1.1
+    specifier: ^3.2.5
     version: 3.2.5
   prettier-plugin-svelte:
-    specifier: ^3.1.2
+    specifier: ^3.2.1
     version: 3.2.1(prettier@3.2.5)(svelte@5.0.0-next.64)
   svelte:
-    specifier: ^5.0.0-next.1
+    specifier: 5.0.0-next.64
     version: 5.0.0-next.64
   svelte-check:
-    specifier: ^3.6.0
+    specifier: ^3.6.4
     version: 3.6.4(postcss@8.4.35)(svelte@5.0.0-next.64)
   terser:
     specifier: ^5.27.2
     version: 5.27.2
   typescript:
-    specifier: ^5.0.0
+    specifier: ^5.3.3
     version: 5.3.3
   vite:
-    specifier: ^5.0.3
+    specifier: ^5.1.4
     version: 5.1.4(terser@5.27.2)
 
 packages:
