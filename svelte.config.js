@@ -3,12 +3,15 @@ import adapter from '@sveltejs/adapter-static';
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
 	kit: {
+		prerender: {
+			origin: 'https://www.otonose.com'
+		},
 		adapter: adapter({
 			fallback: '404.html'
-		})
-	},
-	compilerOptions: {
-		runes: true
+		}),
+		alias: {
+			$paraglide: 'src/paraglide/*'
+		}
 	}
 };
 
