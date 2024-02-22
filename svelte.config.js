@@ -4,7 +4,8 @@ import adapter from '@sveltejs/adapter-static';
 const config = {
 	kit: {
 		prerender: {
-			origin: 'https://www.otonose.com'
+			origin: 'https://www.otonose.com',
+			entries: ['/', '/en', '/ja', '/ko']
 		},
 		adapter: adapter({
 			fallback: '404.html'
