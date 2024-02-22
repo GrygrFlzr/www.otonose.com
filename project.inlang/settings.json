@@ -1,7 +1,11 @@
 {
 	"$schema": "https://inlang.com/schema/project-settings",
 	"sourceLanguageTag": "en",
-	"languageTags": ["en", "ja", "ko"],
+	"languageTags": [
+		"en",
+		"ja",
+		"ko"
+	],
 	"modules": [
 		"https://cdn.jsdelivr.net/npm/@inlang/message-lint-rule-empty-pattern@latest/dist/index.js",
 		"https://cdn.jsdelivr.net/npm/@inlang/message-lint-rule-identical-pattern@latest/dist/index.js",
@@ -9,7 +13,8 @@
 		"https://cdn.jsdelivr.net/npm/@inlang/message-lint-rule-without-source@latest/dist/index.js",
 		"https://cdn.jsdelivr.net/npm/@inlang/message-lint-rule-valid-js-identifier@latest/dist/index.js",
 		"https://cdn.jsdelivr.net/npm/@inlang/plugin-message-format@latest/dist/index.js",
-		"https://cdn.jsdelivr.net/npm/@inlang/plugin-m-function-matcher@latest/dist/index.js"
+		"https://cdn.jsdelivr.net/npm/@inlang/plugin-m-function-matcher@latest/dist/index.js",
+		"https://cdn.jsdelivr.net/npm/@inlang/message-lint-rule-camel-case-id@latest/dist/index.js"
 	],
 	"plugin.inlang.messageFormat": {
 		"pathPattern": "./messages/{languageTag}.json"
