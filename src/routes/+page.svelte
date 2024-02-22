@@ -1,1 +1,5 @@
-<h1>Work in Progress</h1>
+<script>
+	import * as m from '$paraglide/messages.js';
+</script>
+
+<h1>{m.birthdayMessage()}</h1>
